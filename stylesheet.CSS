@@ -1,11 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: white;
-}
-
-p.one {
-    border-style: solid;
-    border-color: red;
 }
 
 .topnav {
@@ -31,18 +26,44 @@ p.one {
 }
 
 .about {
-    max-width: 500px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px;
     padding-top: 30px;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .education, .work_experience, .skills, .certificates, .contact{
-    max-width: 500px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    /*line-height: 30px;*/
+    font-size: 25px;
+}
+
+p {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    line-height: 25px;
+    font-size: 20px;
 }
