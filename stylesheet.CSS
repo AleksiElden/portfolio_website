@@ -3,6 +3,11 @@ body {
     background: white;
 }
 
+p.one {
+    border-style: solid;
+    border-color: red;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #4d4d4d;
@@ -26,13 +31,18 @@ body {
 }
 
 .about {
-    padding-top: 40px;
     max-width: 500px;
     margin: auto;
+    padding: 10px;
+    padding-top: 30px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .education, .work_experience, .skills, .certificates, .contact{
     max-width: 500px;
     margin: auto;
     padding: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
