@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background: white;
+    margin: auto;
+    background: linear-gradient(90deg, #009999 0%, white 35%, 85%, #009999 100%);
 }
 
 .topnav {
@@ -13,7 +14,7 @@ body {
 
 .topnav a {
     float: left;
-    color: #e6e6e6;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +30,7 @@ body {
     max-width: 1000px;
     margin: auto;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 50px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
