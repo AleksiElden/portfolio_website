@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
-    background: linear-gradient(90deg, #009999 0%, white 35%, 85%, #009999 100%);
+    background: linear-gradient(to right, #009999 0%, white 32%, 88%, #009999 100%);
 }
 
 .topnav {
