@@ -80,23 +80,67 @@
         design/development, Customer Service</p>
 </div>
 
-<div class="certificate_row" id="certificate_row">
-    <div class="column">
-        <img src="c:\Users\User\Pictures\certificate_c++.png" alt="Java certificate" style="width:600px;height:400px;">
+<div class="certificate_container">
+
+    <div class="certificate_slides">
+        <div class="slidenumber">1 / 5</div>
+        <img src="c:\Users\User\Pictures\certificate_c++.png" alt="C++ certificate" style="width:600px;height:400px;">
+        <div class="caption">C++ certificate</div>
     </div>
-    <div class="column">
+
+    <div class="certificate_slides">
+        <div class="slidenumber">2 / 5</div>
         <img src="c:\Users\User\Pictures\certificate_java.png" alt="Java certificate" style="width:600px;height:400px;">
+        <div class="caption">Java certificate</div>
     </div>
-    <div class="column">
+
+    <div class="certificate_slides">
+        <div class="slidenumber">3 / 5</div>
         <img src="c:\Users\User\Pictures\certificate_react.png" alt="React certificate" style="width:600px;height:400px;">
+        <div class="caption">React certificate</div>
     </div>
-    <div class="column">
+
+    <div class="certificate_slides">
+        <div class="slidenumber">4 / 5</div>
         <img src="c:\Users\User\Pictures\certificate_sql.png" alt="SQL certificate" style="width:600px;height:400px;">
+        <div class="caption">SQL certificate</div>
     </div>
-    <div class="column">
+
+    <div class="certificate_slides">
+        <div class="slidenumber">5 / 5</div>
         <img src="c:\Users\User\Pictures\certificate_aws_cloud.png" alt="AWS Cloud certificate" style="width:600px;height:400px;">
+        <div class="caption">AWS Cloud certificate</div>
     </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("certificate_slides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+
+</script>
 
 <div class="contact" id="contact">
     <h1><u>Contacts</u></h1>
