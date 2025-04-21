@@ -16,6 +16,24 @@
     <a href="#contact">Contact</a>
 </div>
 
+<label class="switch">
+    <input onclick="language_change()" type="checkbox" checked>
+    <input onclick="language_change()" type="checkbox" unchecked>
+    <span class="slider round"></span>
+</label>
+
+<script>
+    function language_change(){
+        var x=document.getElementById("about");
+        if(x.innerHTML=id="about")
+        {x.innerHTML=id="tietoa"}
+    else{
+     x.innerHTML=id="about"
+    }
+}
+</script>
+
+<!--
 <div class="switch">
     <input id="language-toggle" class="check-toggle check-toggle-round-flat"
     type="checkbox">
@@ -23,6 +41,7 @@
     <span class="on">FIN</span>
     <span class="off">EN</span>
 </div>
+-->
 
 <div class="about" id="about">
     <h1><u>About me</u></h1>
