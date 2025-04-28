@@ -36,7 +36,7 @@ body {
     border-bottom: 2px solid black;
 }
 
-.education, .work_experience, .skills, .certificates, .contact{
+.education, .work_experience, .skills{
     max-width: 1000px;
     margin: auto;
     padding: 10px;
@@ -81,6 +81,7 @@ a {
     margin: auto;
     text-align: center;
     padding: 10px;
+    padding-bottom: 10px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -124,7 +125,7 @@ a {
     font-size: 20px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 15px;
     width: 100%;
     text-align: center;
 }
